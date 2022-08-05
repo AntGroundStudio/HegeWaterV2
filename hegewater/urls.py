@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include    
-from rest_framework import routers      
+from rest_framework import routers
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/user/',include('hegewater.coreServices.user.urls'))
+    path('api/user/',include('hegewater.coreServices.user.urls')),
+    path('', include('hegewater.uiServices.react.urls'))
 ]
