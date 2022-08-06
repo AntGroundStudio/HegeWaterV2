@@ -14,7 +14,7 @@ from pathlib import Path
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 # REAL_BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
@@ -148,3 +148,36 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 
 ALLOWED_HOSTS = ['*']
+
+#date time logging_level | file_name - function_name - exception (in case of error logs)
+#method_entry method_exit
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '%(asctime)s - %(levelname)s | %(pathname)s - %(filename)s - %(funcName)s - %(lineno)d - %(message)s',
+            #'datefmt':'%d-%m-%Y %H:%M:%S',
+        },
+        'simple': {
+            'format': '%(levelname)s %(message)s'
+        },
+    },
+    'handlers': {
+        'rotating_file_handler': {
+            'level': 'DEBUG',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': 'hegewater/logs/logInfo.log',
+            'maxBytes': 2097152,  # 1024 * 1024 * 2B = 2MB
+            'backupCount': 10,
+            'formatter': 'verbose',
+        },
+    },
+    'loggers': {
+        'loggod': {
+            'handlers': ['rotating_file_handler'],
+            'level': 'INFO',
+            'propagate': True,
+        }
+    },
+}
