@@ -8,8 +8,7 @@ logger = logging.getLogger("loggod")
 
 @csrf_exempt
 def test(request):
-    if request.method == 'POST':
-        logger.info("MethodEntry")
+    if request.method == 'GET':
         try:
             request_data = JSONParser().parse(request)
             logger.critical("testing")
