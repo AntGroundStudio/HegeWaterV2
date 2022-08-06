@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="529" height="646" viewBox="0 0 529 646">
+  <defs>
+    <filter id="Subtraction_3" x="0" y="0" width="529" height="646" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#376bdf" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_50" data-name="Group 50" transform="translate(-695.5 -2845.482)">
+    <g transform="matrix(1, 0, 0, 1, 695.5, 2845.48)" filter="url(#Subtraction_3)">
+      <path id="Subtraction_3-2" data-name="Subtraction 3" d="M443,713H26A25.979,25.979,0,0,1,0,687V153a25.978,25.978,0,0,1,26-26H129.479a109.02,109.02,0,0,0,215.041,0H443a25.978,25.978,0,0,1,26,26V687a25.979,25.979,0,0,1-26,26Z" transform="translate(30 -97)" fill="#fff"/>
+    </g>
+    <text id="First_Delivery" data-name="First Delivery" transform="translate(923.456 3168.182)" fill="#bebebe" font-size="16" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">First Delivery</tspan></text>
+    <text id="First_Delivery-2" data-name="First Delivery" transform="translate(875.243 3347.68)" fill="#bebebe" font-size="16" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">First Delivery</tspan></text>
+    <text id="Later" transform="translate(1007.114 3347.68)" fill="#bebebe" font-size="16" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Later</tspan></text>
+    <circle id="Ellipse_36" data-name="Ellipse 36" cx="7" cy="7" r="7" transform="translate(909.456 3097.182)" fill="#ff6a3c"/>
+    <circle id="Ellipse_39" data-name="Ellipse 39" cx="7" cy="7" r="7" transform="translate(902.114 3276.68)" fill="#ff6a3c"/>
+    <circle id="Ellipse_37" data-name="Ellipse 37" cx="7" cy="7" r="7" transform="translate(953.456 3097.182)" fill="#ff6a3c"/>
+    <circle id="Ellipse_40" data-name="Ellipse 40" cx="7" cy="7" r="7" transform="translate(946.114 3276.68)" fill="#ff6a3c"/>
+    <g id="Ellipse_38" data-name="Ellipse 38" transform="translate(996.456 3097.182)" fill="#ff6a3c" stroke="#ff6a3c" stroke-width="2">
+      <circle cx="7" cy="7" r="7" stroke="none"/>
+      <circle cx="7" cy="7" r="6" fill="none"/>
+    </g>
+    <g id="Ellipse_41" data-name="Ellipse 41" transform="translate(989.114 3276.68)" fill="none" stroke="#ff6a3c" stroke-width="2">
+      <circle cx="7" cy="7" r="7" stroke="none"/>
+      <circle cx="7" cy="7" r="6" fill="none"/>
+    </g>
+    <g id="Ellipse_42" data-name="Ellipse 42" transform="translate(1040.456 3097.182)" fill="#ff6a3c" stroke="#ff6a3c" stroke-width="2">
+      <circle cx="7" cy="7" r="7" stroke="none"/>
+      <circle cx="7" cy="7" r="6" fill="none"/>
+    </g>
+    <g id="Ellipse_43" data-name="Ellipse 43" transform="translate(1033.114 3276.68)" fill="none" stroke="#ff6a3c" stroke-width="2">
+      <circle cx="7" cy="7" r="7" stroke="none"/>
+      <circle cx="7" cy="7" r="6" fill="none"/>
+    </g>
+    <path id="Path_394" data-name="Path 394" d="M777.678,2895.512v12.931H947.056v-12.931" transform="translate(120.065 226.205)" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+    <path id="Path_397" data-name="Path 397" d="M777.678,2895.512v12.931H859.6v-12.931" transform="translate(112.102 405.366)" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+    <path id="Path_400" data-name="Path 400" d="M777.678,2895.512v12.931H859.6v-12.931" transform="translate(201.941 405.703)" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+    <path id="Path_395" data-name="Path 395" d="M828,2908.465v12.269" transform="translate(150.456 226.182)" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+    <path id="Path_399" data-name="Path 399" d="M828,2908.465v12.269" transform="translate(97.743 405.68)" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+    <path id="Path_401" data-name="Path 401" d="M828,2908.465v12.269" transform="translate(196.158 405.68)" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+    <text id="or" transform="translate(940.5 3241.482)" fill="#e9e9e9" font-size="70" font-family="Poppins-ExtraBold, Poppins" font-weight="800"><tspan x="0" y="0">or</tspan></text>
+  </g>
+</svg>

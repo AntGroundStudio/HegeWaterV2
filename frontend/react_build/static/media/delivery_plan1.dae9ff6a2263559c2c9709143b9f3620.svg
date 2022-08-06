@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="529" height="646" viewBox="0 0 529 646">
+  <defs>
+    <filter id="Subtraction_1" x="0" y="0" width="529" height="646" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#376bdf" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_49" data-name="Group 49" transform="translate(-144.619 -2845.482)">
+    <g transform="matrix(1, 0, 0, 1, 144.62, 2845.48)" filter="url(#Subtraction_1)">
+      <path id="Subtraction_1-2" data-name="Subtraction 1" d="M443,713H26A25.979,25.979,0,0,1,0,687V153a25.978,25.978,0,0,1,26-26H129.479a109.02,109.02,0,0,0,215.041,0H443a25.978,25.978,0,0,1,26,26V687a25.979,25.979,0,0,1-26,26Z" transform="translate(30 -97)" fill="#fff"/>
+    </g>
+    <text id="First_Delivery" data-name="First Delivery" transform="translate(352.119 3234.715)" fill="#bebebe" font-size="16" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">First Delivery</tspan></text>
+    <circle id="Ellipse_6" data-name="Ellipse 6" cx="7" cy="7" r="7" transform="translate(382.619 3168.25)" fill="#ff6a3c"/>
+    <circle id="Ellipse_7" data-name="Ellipse 7" cx="7" cy="7" r="7" transform="translate(409.619 3168.25)" fill="#ff6a3c"/>
+    <path id="Path_392" data-name="Path 392" d="M777.678,2895.512v12.931h88.666v-12.931" transform="translate(-422.256 292.738)" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+    <path id="Path_393" data-name="Path 393" d="M828,2908.465v12.269" transform="translate(-428.244 292.715)" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  </g>
+</svg>

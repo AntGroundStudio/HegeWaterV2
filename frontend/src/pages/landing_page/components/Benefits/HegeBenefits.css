@@ -1,0 +1,145 @@
+.benefits-background {
+    background-image: url('Assets/benefits_background.svg');
+    background-size: cover;
+}
+
+.round-benefits-card{
+    border-radius: 99px;
+}
+
+.hege-benefits-title-font-weight{
+    font-weight: 900;
+    -webkit-text-stroke-width: 0.25px;
+}
+
+.hege-benefits-font-color{
+    color:#FF6A3C;
+}
+
+.jump-into-health-btn-color {
+    background-color: #FF6A3C;
+}
+
+.jump-into-health-btn-prop {
+    border-radius: 77px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.what-sets-hege-apart-title-font-weight{
+    font-weight: 900;
+    -webkit-text-stroke-width: 0.25px;
+}
+
+/*Media Queries*/
+@media (min-width:320px) {
+
+    .jump-into-health-btn-font-size{
+        font-size: 16px;
+    }
+
+    .benefit-font-size{
+        font-size: 16px;
+    }
+
+    .benefit-image-res {
+        max-width: 72%;
+        height: auto;
+    }
+
+    /* smartphones, iPhone, portrait 480x320 phones */
+}
+
+@media (min-width:481px) {
+
+    .jump-into-health-btn-font-size{
+        font-size: 16px;
+    }
+
+    .benefit-font-size{
+        font-size: 16px;
+    }
+
+    .benefit-image-res {
+        max-width: 72%;
+        height: auto;
+    }
+
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+
+@media (min-width:641px) {
+
+    .jump-into-health-btn-font-size{
+        font-size: 16px;
+    }
+
+    .benefit-font-size{
+        font-size: 16px;
+    }
+
+    .benefit-image-res {
+        max-width: 72%;
+        height: auto;
+    }
+
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+
+@media (min-width:961px) {
+
+    .jump-into-health-btn-font-size{
+        font-size: 24px;
+    }
+
+    .benefit-font-size{
+        font-size: 16px;
+    }
+
+    .benefit-image-res {
+        max-width: 100%;
+        height: 72%;
+    }
+
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media (min-width:1025px) {
+
+    .jump-into-health-btn-font-size{
+        font-size: 24px;
+    }
+
+    .benefit-font-size{
+        font-size: 27px;
+    }
+    
+    .benefit-image-res {
+        max-width: 100%;
+        height: 72%;
+    }
+
+    /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width:1281px) {
+
+    .jump-into-health-btn-font-size{
+        font-size: 24px;
+    }
+
+    .benefit-font-size{
+        font-size: 27px;
+    }
+
+    .benefit-image-res {
+        max-width: 100%;
+        height: 72%;
+    }
+
+    /* hi-res laptops and desktops */
+}

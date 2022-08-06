@@ -1,0 +1,700 @@
+.carousel-item-container {
+    position: relative;
+}
+
+.carousel-item-font-color {
+    color: #FFFFFF;
+}
+
+.slider-one-one-font-color {
+    color: #1A1A1A;
+}
+
+.carousel-item-font-weight {
+    font-weight: 900;
+    -webkit-text-stroke-width: 0.25px;
+}
+
+.carousel-item-another-font-color{
+    color: #FF6A3C;
+}
+
+/*Media Queries*/
+@media (min-width:320px) {
+
+    .slider-one-text {
+        position: absolute;
+        bottom: 64%;
+        left: 8%;
+        font-size: 32px;
+    }
+
+    .slider-one-one-text {
+        position: absolute;
+        bottom: 60%;
+        left: 8%;
+        font-size: 12px;
+    }
+
+    .slider-two-text {
+        position: absolute;
+        bottom: 60%;
+        left: 27%;
+        font-size: 32px;
+    }
+
+    .slider-two-two-text {
+        position: absolute;
+        bottom: 56%;
+        left: 51%;
+        font-size: 12px;
+    }
+
+    .slider-three-text {
+        position: absolute;
+        bottom: 64%;
+        left:44%;
+        font-size: 18px;
+    }
+
+    .slider-three-three-text {
+        position: absolute;
+        bottom: 60%;
+        left:44%;
+        font-size: 10px;
+    }
+
+    .slider-two-image-res {
+        max-width: 64%;
+        height: auto;
+    }
+
+    .first-icon-resp {
+        max-width: auto;
+        height: 24%;
+        position: absolute;
+        bottom: 20%;
+        left: 8%;
+    }
+
+    .second-icon-resp {
+        max-width: auto;
+        height: 24%;
+        position: absolute;
+        bottom: 20%;
+        left: 36%;
+    }
+
+    .third-icon-resp {
+        max-width: auto;
+        height: 24%;
+        position: absolute;
+        bottom: 2%;
+        left: 8%;
+    }
+
+    .fourth-icon-resp {
+        max-width: auto;
+        height: 24%;
+        position: absolute;
+        bottom: 2%;
+        left: 36%;
+    }
+
+    .not-ro-icon-text{
+        position: absolute;
+        bottom: 16%;
+        left: 48px;
+        font-size: x-small;
+    }
+
+    .filter-icon-text{
+        position: absolute;
+        bottom: 16%;
+        left: 108px;
+        font-size: x-small;
+    }
+
+    .prestine-icon-text{
+        position: absolute;
+        bottom: -2%;
+        left: 37px;
+        font-size: x-small;
+    }
+
+    .untouched-icon-text{
+        position: absolute;
+        bottom: -2%;
+        left: 126px;
+        font-size: x-small;
+    }
+
+    /* smartphones, iPhone, portrait 4100x320 phones */
+}
+
+@media (min-width:481px) {
+
+    .slider-one-text {
+        position: absolute;
+        bottom: 60%;
+        left: 8%;
+        right: 24%;
+        font-size: 32px;
+    }
+
+    .slider-one-one-text {
+        position: absolute;
+        bottom: 62%;
+        left: 8%;
+        font-size: 12px;
+    }
+
+    .slider-two-text {
+        position: absolute;
+        bottom: 60%;
+        left: 27%;
+        font-size: 32px;
+    }
+
+    .slider-two-two-text {
+        position: absolute;
+        bottom: 56%;
+        left: 51%;
+        font-size: 12px;
+    }
+
+    .slider-three-text {
+        position: absolute;
+        bottom: 64%;
+        left:44%;
+        font-size: 18px;
+    }
+
+    .slider-three-three-text {
+        position: absolute;
+        bottom: 60%;
+        left:44%;
+        font-size: 10px;
+    }
+
+    .slider-two-image-res {
+        max-width: 64%;
+        height: auto;
+    }
+
+    .first-icon-resp {
+        max-width: auto;
+        height: 24%;
+        position: absolute;
+        bottom: 20%;
+        left: 8%;
+    }
+
+    .second-icon-resp {
+        max-width: auto;
+        height: 24%;
+        position: absolute;
+        bottom: 20%;
+        left: 36%;
+    }
+
+    .third-icon-resp {
+        max-width: auto;
+        height: 24%;
+        position: absolute;
+        bottom: 2%;
+        left: 8%;
+    }
+
+    .fourth-icon-resp {
+        max-width: auto;
+        height: 24%;
+        position: absolute;
+        bottom: 2%;
+        left: 36%;
+    }
+
+    .not-ro-icon-text{
+        position: absolute;
+        bottom: 16%;
+        left: 48px;
+        font-size: x-small;
+    }
+
+    .filter-icon-text{
+        position: absolute;
+        bottom: 16%;
+        left: 108px;
+        font-size: x-small;
+    }
+
+    .prestine-icon-text{
+        position: absolute;
+        bottom: -2%;
+        left: 37px;
+        font-size: x-small;
+    }
+
+    .untouched-icon-text{
+        position: absolute;
+        bottom: -2%;
+        left: 126px;
+        font-size: x-small;
+    }
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+
+@media (min-width:641px) {
+
+    .slider-one-text {
+        position: absolute;
+        bottom: 60%;
+        left: 8%;
+        right: 24%;
+        font-size: 32px;
+    }
+
+    .slider-one-one-text {
+        position: absolute;
+        bottom: 62%;
+        left: 8%;
+        font-size: 12px;
+    }
+
+    .slider-two-text {
+        position: absolute;
+        bottom: 60%;
+        left: 27%;
+        font-size: 32px;
+    }
+
+    .slider-two-two-text {
+        position: absolute;
+        bottom: 56%;
+        left: 51%;
+        font-size: 12px;
+    }
+
+    .slider-three-text {
+        position: absolute;
+        bottom: 64%;
+        left: 44%;
+        font-size: 18px;
+    }
+
+    .slider-three-three-text {
+        position: absolute;
+        bottom: 60%;
+        left:44%;
+        font-size: 10px;
+    }
+
+    .slider-two-image-res {
+        max-width: 64%;
+        height: auto;
+    }
+
+    .first-icon-resp {
+        max-width: auto;
+        height: 24%;
+        position: absolute;
+        bottom: 20%;
+        left: 8%;
+    }
+
+    .second-icon-resp {
+        max-width: auto;
+        height: 24%;
+        position: absolute;
+        bottom: 20%;
+        left: 36%;
+    }
+
+    .third-icon-resp {
+        max-width: auto;
+        height: 24%;
+        position: absolute;
+        bottom: 2%;
+        left: 8%;
+    }
+
+    .fourth-icon-resp {
+        max-width: auto;
+        height: 24%;
+        position: absolute;
+        bottom: 2%;
+        left: 36%;
+    }
+
+    .not-ro-icon-text{
+        position: absolute;
+        bottom: 16%;
+        left: 48px;
+        font-size: x-small;
+    }
+
+    .filter-icon-text{
+        position: absolute;
+        bottom: 16%;
+        left: 108px;
+        font-size: x-small;
+    }
+
+    .prestine-icon-text{
+        position: absolute;
+        bottom: -2%;
+        left: 37px;
+        font-size: x-small;
+    }
+
+    .untouched-icon-text{
+        position: absolute;
+        bottom: -2%;
+        left: 126px;
+        font-size: x-small;
+    }
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 1000x4100 or 854x4100 phones */
+}
+
+@media (min-width:961px) {
+
+    .slider-one-text {
+        position: absolute;
+        bottom: 48%;
+        left: 16%;
+        right: 24%;
+        font-size: 130px;
+    }
+
+    .slider-one-one-text {
+        position: absolute;
+        bottom: 48%;
+        left: 19%;
+        right: 25%;
+        font-size: 32px;
+    }
+
+    .slider-two-text {
+        position: absolute;
+        bottom: 48%;
+        left: 8%;
+        right: 24%;
+        font-size: 130px;
+    }
+
+    .slider-two-two-text {
+        position: absolute;
+        bottom: 42%;
+        left: 31%;
+        right: 25%;
+        font-size: 48px;
+    }
+
+    .slider-three-text {
+        position: absolute;
+        bottom: 56%;
+        font-size: 99px;
+        left: 20%;
+    }
+
+    .slider-three-three-text {
+        position: absolute;
+        bottom: 44%;
+        left: 20%;
+        font-size: 40px;
+    }
+
+    .slider-two-image-res {
+        max-width: 64%;
+        height: auto;
+    }
+
+    .first-icon-resp {
+        max-width: 8%;
+        height: 32%;
+        position: absolute;
+        bottom: 13%;
+        left: 8%;
+    }
+
+    .second-icon-resp {
+        max-width: 8%;
+        height: 32%;
+        position: absolute;
+        bottom: 13%;
+        left: 24%;
+    }
+
+    .third-icon-resp {
+        max-width: 8%;
+        height: 32%;
+        position: absolute;
+        bottom: 13%;
+        left: 40%;
+    }
+
+    .fourth-icon-resp {
+        max-width: 8%;
+        height: 32%;
+        position: absolute;
+        bottom: 13%;
+        left: 56%;
+    }
+
+    .not-ro-icon-text{
+        position: absolute;
+        bottom: 6%;
+        left: 143px;
+        font-size: x-large;
+    }
+
+    .filter-icon-text{
+        position: absolute;
+        bottom: 6%;
+        left: 314px;
+        font-size: x-large;
+    }
+
+    .prestine-icon-text{
+        position: absolute;
+        bottom: 6%;
+        left: 593px;
+        font-size: x-large;
+    }
+
+    .untouched-icon-text{
+        position: absolute;
+        bottom: 6%;
+        left: 849px;
+        font-size: x-large;
+    }
+
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media (min-width:1025px) {
+
+    .slider-one-text {
+        position: absolute;
+        bottom: 48%;
+        left: 16%;
+        right: 24%;
+        font-size: 130px;
+    }
+
+    .slider-one-one-text {
+        position: absolute;
+        bottom: 48%;
+        left: 19%;
+        right: 25%;
+        font-size: 32px;
+    }
+
+    .slider-two-text {
+        position: absolute;
+        bottom: 48%;
+        left: 8%;
+        right: 24%;
+        font-size: 130px;
+    }
+
+    .slider-two-two-text {
+        position: absolute;
+        bottom: 42%;
+        left: 31%;
+        right: 25%;
+        font-size: 48px;
+    }
+
+    .slider-three-text {
+        position: absolute;
+        bottom: 56%;
+        font-size: 99px;
+        left: 20%;
+    }
+
+    .slider-three-three-text {
+        position: absolute;
+        bottom: 44%;
+        left: 20%;
+        font-size: 40px;
+    }
+
+    .slider-two-image-res {
+        max-width: 64%;
+        height: auto;
+    }
+
+    .first-icon-resp {
+        max-width: 8%;
+        height: 32%;
+        position: absolute;
+        bottom: 13%;
+        left: 8%;
+    }
+
+    .second-icon-resp {
+        max-width: 8%;
+        height: 32%;
+        position: absolute;
+        bottom: 13%;
+        left: 24%;
+    }
+
+    .third-icon-resp {
+        max-width: 8%;
+        height: 32%;
+        position: absolute;
+        bottom: 13%;
+        left: 40%;
+    }
+
+    .fourth-icon-resp {
+        max-width: 8%;
+        height: 32%;
+        position: absolute;
+        bottom: 13%;
+        left: 56%;
+    }
+
+    .not-ro-icon-text{
+        position: absolute;
+        bottom: 6%;
+        left: 143px;
+        font-size: x-large;
+    }
+
+    .filter-icon-text{
+        position: absolute;
+        bottom: 6%;
+        left: 314px;
+        font-size: x-large;
+    }
+
+    .prestine-icon-text{
+        position: absolute;
+        bottom: 6%;
+        left: 593px;
+        font-size: x-large;
+    }
+
+    .untouched-icon-text{
+        position: absolute;
+        bottom: 6%;
+        left: 849px;
+        font-size: x-large;
+    }
+
+    /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width:1281px) {
+
+    .slider-one-text {
+        position: absolute;
+        bottom: 48%;
+        left: 16%;
+        right: 24%;
+        font-size: 130px;
+    }
+
+    .slider-one-one-text {
+        position: absolute;
+        bottom: 48%;
+        left: 19%;
+        right: 25%;
+        font-size: 32px;
+    }
+
+    .slider-two-text {
+        position: absolute;
+        bottom: 48%;
+        left: 8%;
+        right: 24%;
+        font-size: 130px;
+    }
+
+    .slider-two-two-text {
+        position: absolute;
+        bottom: 42%;
+        left: 31%;
+        right: 25%;
+        font-size: 48px;
+    }
+
+    .slider-three-text {
+        position: absolute;
+        bottom: 56%;
+        font-size: 99px;
+        left: 20%;
+    }
+
+    .slider-three-three-text {
+        position: absolute;
+        bottom: 44%;
+        left: 20%;
+        font-size: 40px;
+    }
+
+    .first-icon-resp {
+        max-width: 8%;
+        height: 32%;
+        position: absolute;
+        bottom: 13%;
+        left: 8%;
+    }
+
+    .second-icon-resp {
+        max-width: 7%;
+        height: 32%;
+        position: absolute;
+        bottom: 13%;
+        left: 24%;
+    }
+
+    .third-icon-resp {
+        max-width: 8%;
+        height: 32%;
+        position: absolute;
+        bottom: 13%;
+        left: 40%;
+    }
+
+    .fourth-icon-resp {
+        max-width: 8%;
+        height: 32%;
+        position: absolute;
+        bottom: 13%;
+        left: 56%;
+    }
+
+    .not-ro-icon-text{
+        position: absolute;
+        bottom: 6%;
+        left: 143px;
+        font-size: x-large;
+    }
+
+    .filter-icon-text{
+        position: absolute;
+        bottom: 6%;
+        left: 314px;
+        font-size: x-large;
+    }
+
+    .prestine-icon-text{
+        position: absolute;
+        bottom: 6%;
+        left: 593px;
+        font-size: x-large;
+    }
+
+    .untouched-icon-text{
+        position: absolute;
+        bottom: 6%;
+        left: 849px;
+        font-size: x-large;
+    }
+
+    /* hi-res laptops and desktops */
+}

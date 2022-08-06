@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && xcopy build react_build /e /y",
+    "build": "react-scripts build && rmdir /s /q react_build && xcopy build react_build /e /y",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

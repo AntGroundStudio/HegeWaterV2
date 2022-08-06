@@ -1,0 +1,125 @@
+.footer-background {
+    background-color: #1A1A1A;
+}
+
+.footer-relative-position{
+    position: relative;
+}
+
+.footer-absolute-position{
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+
+.footer-font-color {
+    color: #FFFFFF;
+}
+
+.footer-background-image {
+    background-image: url('Assets/footer_mountain.svg');
+    background-size: cover;
+}
+
+/*Media Queries*/
+@media (min-width:320px) {
+
+    .social-media-relative-margin{
+        margin-bottom:140px;
+    }
+
+    .footer-image-res {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .footer-social-media-logo {
+        max-width: 8%;
+        height: 8%;
+    }
+
+    /* smartphones, iPhone, portrait 4100x320 phones */
+}
+
+@media (min-width:481px) {
+
+    .social-media-relative-margin{
+        margin-bottom:140px;
+    }
+
+    .footer-image-res {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .footer-social-media-logo {
+        max-width: 8%;
+        height: 8%;
+    }
+
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+
+@media (min-width:641px) {
+
+    .social-media-relative-margin{
+        margin-bottom:140px;
+    }
+    
+    .footer-image-res {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .footer-social-media-logo {
+        max-width: 8%;
+        height: 8%;
+    }
+
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 1000x4100 or 854x4100 phones */
+}
+
+@media (min-width:961px) {
+
+    .footer-image-res {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .footer-social-media-logo {
+        max-width: 8%;
+        height: 8%;
+    }
+
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media (min-width:1025px) {
+
+    .footer-image-res {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .footer-social-media-logo {
+        max-width: 8%;
+        height: 8%;
+    }
+
+    /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width:1281px) {
+
+    .footer-image-res {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .footer-social-media-logo {
+        max-width: 8%;
+        height: 8%;
+    }
+
+    /* hi-res laptops and desktops */
+}

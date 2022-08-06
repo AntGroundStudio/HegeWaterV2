@@ -1,0 +1,128 @@
+.hege-font-color{
+    color:#FF6A3C;
+}
+
+.find-out-more-btn-color {
+    background-color: #FF6A3C;
+}
+
+.find-out-more-btn-prop {
+    border-radius: 77px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.what-sets-hege-apart-title-font-weight{
+    font-weight: 900;
+    -webkit-text-stroke-width: 0.25px;
+}
+
+/*Media Queries*/
+@media (min-width:320px) {
+
+    .find-out-more-btn-font-size{
+        font-size: 16px;
+    }
+
+    .feature-image-res {
+        max-width: 64%;
+        height: auto;
+    }
+
+    .feature-font-size{
+        font-size: 16px;
+    }
+
+    /* smartphones, iPhone, portrait 480x320 phones */
+}
+
+@media (min-width:481px) {
+
+    .find-out-more-btn-font-size{
+        font-size: 16px;
+    }
+
+    .feature-image-res {
+        max-width: 64%;
+        height: auto;
+    }
+
+    .feature-font-size{
+        font-size: 16px;
+    }
+
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+
+@media (min-width:641px) {
+
+    .find-out-more-btn-font-size{
+        font-size: 16px;
+    }
+
+    .feature-image-res {
+        max-width: 64%;
+        height: auto;
+    }
+
+    .feature-font-size{
+        font-size: 16px;
+    }
+
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+
+@media (min-width:961px) {
+
+    .find-out-more-btn-font-size{
+        font-size: 24px;
+    }
+
+    .feature-image-res {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .feature-font-size{
+        font-size: 27px;
+    }
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media (min-width:1025px) {
+
+    .find-out-more-btn-font-size{
+        font-size: 24px;
+    }
+
+    .feature-image-res {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .feature-font-size{
+        font-size: 27px;
+    }
+    /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width:1281px) {
+
+    .find-out-more-btn-font-size{
+        font-size: 24px;
+    }
+
+    .feature-image-res {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .feature-font-size{
+        font-size: 27px;
+    }
+    /* hi-res laptops and desktops */
+}

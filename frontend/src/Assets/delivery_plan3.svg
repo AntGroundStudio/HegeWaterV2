@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="529" height="646" viewBox="0 0 529 646">
+  <defs>
+    <filter id="Subtraction_2" x="0" y="0" width="529" height="646" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#376bdf" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_51" data-name="Group 51" transform="translate(-1252.619 -2845.482)">
+    <g transform="matrix(1, 0, 0, 1, 1252.62, 2845.48)" filter="url(#Subtraction_2)">
+      <path id="Subtraction_2-2" data-name="Subtraction 2" d="M443,713H26A25.979,25.979,0,0,1,0,687V153a25.978,25.978,0,0,1,26-26H129.479a109.02,109.02,0,0,0,215.041,0H443a25.978,25.978,0,0,1,26,26V687a25.979,25.979,0,0,1-26,26Z" transform="translate(30 -97)" fill="#fff"/>
+    </g>
+    <text id="First_Delivery" data-name="First Delivery" transform="translate(1334.423 3168.182)" fill="#bebebe" font-size="16" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">First Delivery</tspan></text>
+    <text id="First_Delivery-2" data-name="First Delivery" transform="translate(1375.256 3353.981)" fill="#bebebe" font-size="16" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">First Delivery</tspan></text>
+    <text id="Later" transform="translate(1559.481 3169.216)" fill="#bebebe" font-size="16" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Later</tspan></text>
+    <text id="Later-2" data-name="Later" transform="translate(1559.481 3353.982)" fill="#bebebe" font-size="16" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Later</tspan></text>
+    <circle id="Ellipse_8" data-name="Ellipse 8" cx="7" cy="7" r="7" transform="translate(1360.06 3098.216)" fill="#ff6a3c"/>
+    <circle id="Ellipse_28" data-name="Ellipse 28" cx="7" cy="7" r="7" transform="translate(1356.756 3282.982)" fill="#ff6a3c"/>
+    <circle id="Ellipse_9" data-name="Ellipse 9" cx="7" cy="7" r="7" transform="translate(1404.06 3098.216)" fill="#ff6a3c"/>
+    <circle id="Ellipse_29" data-name="Ellipse 29" cx="7" cy="7" r="7" transform="translate(1400.756 3282.982)" fill="#ff6a3c"/>
+    <g id="Ellipse_10" data-name="Ellipse 10" transform="translate(1447.06 3098.216)" fill="none" stroke="#ff6a3c" stroke-width="2">
+      <circle cx="7" cy="7" r="7" stroke="none"/>
+      <circle cx="7" cy="7" r="6" fill="none"/>
+    </g>
+    <circle id="Ellipse_30" data-name="Ellipse 30" cx="7" cy="7" r="7" transform="translate(1443.756 3282.982)" fill="#ff6a3c"/>
+    <g id="Ellipse_13" data-name="Ellipse 13" transform="translate(1578.06 3098.216)" fill="none" stroke="#ff6a3c" stroke-width="2">
+      <circle cx="7" cy="7" r="7" stroke="none"/>
+      <circle cx="7" cy="7" r="6" fill="none"/>
+    </g>
+    <g id="Ellipse_33" data-name="Ellipse 33" transform="translate(1574.756 3282.982)" fill="none" stroke="#ff6a3c" stroke-width="2">
+      <circle cx="7" cy="7" r="7" stroke="none"/>
+      <circle cx="7" cy="7" r="6" fill="none"/>
+    </g>
+    <g id="Ellipse_11" data-name="Ellipse 11" transform="translate(1491.06 3098.216)" fill="none" stroke="#ff6a3c" stroke-width="2">
+      <circle cx="7" cy="7" r="7" stroke="none"/>
+      <circle cx="7" cy="7" r="6" fill="none"/>
+    </g>
+    <circle id="Ellipse_31" data-name="Ellipse 31" cx="7" cy="7" r="7" transform="translate(1487.756 3282.982)" fill="#ff6a3c"/>
+    <g id="Ellipse_14" data-name="Ellipse 14" transform="translate(1621.06 3098.216)" fill="none" stroke="#ff6a3c" stroke-width="2">
+      <circle cx="7" cy="7" r="7" stroke="none"/>
+      <circle cx="7" cy="7" r="6" fill="none"/>
+    </g>
+    <g id="Ellipse_34" data-name="Ellipse 34" transform="translate(1617.756 3282.982)" fill="none" stroke="#ff6a3c" stroke-width="2">
+      <circle cx="7" cy="7" r="7" stroke="none"/>
+      <circle cx="7" cy="7" r="6" fill="none"/>
+    </g>
+    <g id="Ellipse_12" data-name="Ellipse 12" transform="translate(1534.06 3098.216)" fill="none" stroke="#ff6a3c" stroke-width="2">
+      <circle cx="7" cy="7" r="7" stroke="none"/>
+      <circle cx="7" cy="7" r="6" fill="none"/>
+    </g>
+    <g id="Ellipse_32" data-name="Ellipse 32" transform="translate(1530.756 3282.982)" fill="none" stroke="#ff6a3c" stroke-width="2">
+      <circle cx="7" cy="7" r="7" stroke="none"/>
+      <circle cx="7" cy="7" r="6" fill="none"/>
+    </g>
+    <g id="Ellipse_15" data-name="Ellipse 15" transform="translate(1665.06 3098.216)" fill="none" stroke="#ff6a3c" stroke-width="2">
+      <circle cx="7" cy="7" r="7" stroke="none"/>
+      <circle cx="7" cy="7" r="6" fill="none"/>
+    </g>
+    <g id="Ellipse_35" data-name="Ellipse 35" transform="translate(1661.756 3282.982)" fill="none" stroke="#ff6a3c" stroke-width="2">
+      <circle cx="7" cy="7" r="7" stroke="none"/>
+      <circle cx="7" cy="7" r="6" fill="none"/>
+    </g>
+    <path id="Path_384" data-name="Path 384" d="M777.678,2895.512v12.931h88.666v-12.931" transform="translate(565.048 227.239)" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+    <path id="Path_388" data-name="Path 388" d="M777.678,2895.512v12.931h164.2v-12.931" transform="translate(568.744 412.005)" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+    <path id="Path_385" data-name="Path 385" d="M777.678,2895.512v12.931H1016.07v-12.931" transform="translate(665.911 227.239)" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+    <path id="Path_390" data-name="Path 390" d="M777.678,2895.512v12.931H932.541v-12.931" transform="translate(748.94 412.005)" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+    <path id="Path_386" data-name="Path 386" d="M828,2908.465v12.269" transform="translate(559.06 227.216)" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+    <path id="Path_389" data-name="Path 389" d="M828,2908.465v12.269" transform="translate(597.756 411.982)" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+    <path id="Path_387" data-name="Path 387" d="M828,2908.465v12.269" transform="translate(753.756 227.216)" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+    <path id="Path_391" data-name="Path 391" d="M828,2908.465v12.269" transform="translate(753.756 411.982)" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+    <text id="or" transform="translate(1479.619 3239)" fill="#e9e9e9" font-size="70" font-family="Poppins-ExtraBold, Poppins" font-weight="800"><tspan x="0" y="0">or</tspan></text>
+  </g>
+</svg>

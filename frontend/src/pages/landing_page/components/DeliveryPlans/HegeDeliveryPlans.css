@@ -1,0 +1,263 @@
+.delivery-container {
+    position: relative;
+}
+
+.delivery-font-color {
+    color: #366BDF;
+}
+
+.shop-now-btn-color {
+    background-color: #366BDF;
+}
+
+.shop-now-btn-prop {
+    border-radius: 77px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.delivery-plans-title-font-weight {
+    font-weight: 900;
+    -webkit-text-stroke-width: 0.25px;
+}
+
+.delivery-plan-font-weight{
+    font-weight: 900;
+}
+
+.number-font-color{
+    color: #FF6A3C;
+}
+
+/*Media Queries*/
+@media (min-width:320px) {
+
+    .shop-now-btn-font-size{
+        font-size: 16px;
+    }
+
+    .delivery-plan-text {
+        position: absolute;
+        bottom: 13%;
+        left: 24%;
+        right: 24%;
+        font-size: small;
+    }
+
+    .number-text {
+        position: absolute;
+        bottom: 82%;
+        left: 24%;
+        right: 24%;
+        font-size:x-large;
+    }
+
+    .cans-text {
+        position: absolute;
+        bottom: 78%;
+        left: 24%;
+        right: 24%;
+        font-size: medium;
+    }
+
+    .delivery-plan-image-res {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* smartphones, iPhone, portrait 4100x320 phones */
+}
+
+@media (min-width:481px) {
+
+    .shop-now-btn-font-size{
+        font-size: 16px;
+    }
+
+    .delivery-plan-text {
+        position: absolute;
+        bottom: 13%;
+        left: 24%;
+        right: 24%;
+        font-size: small;
+    }
+
+    .number-text {
+        position: absolute;
+        bottom: 82%;
+        left: 24%;
+        right: 24%;
+        font-size:x-large;
+    }
+
+    .cans-text {
+        position: absolute;
+        bottom: 78%;
+        left: 24%;
+        right: 24%;
+        font-size: medium;
+    }
+
+    .delivery-plan-image-res {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+
+@media (min-width:641px) {
+
+    .shop-now-btn-font-size{
+        font-size: 16px;
+    }
+
+    .delivery-plan-text {
+        position: absolute;
+        bottom: 13%;
+        left: 24%;
+        right: 24%;
+        font-size: small;
+    }
+
+    .number-text {
+        position: absolute;
+        bottom: 82%;
+        left: 24%;
+        right: 24%;
+        font-size:x-large;
+    }
+
+    .cans-text {
+        position: absolute;
+        bottom: 78%;
+        left: 24%;
+        right: 24%;
+        font-size: medium;
+    }
+
+    .delivery-plan-image-res {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 1000x4100 or 854x4100 phones */
+}
+
+@media (min-width:961px) {
+
+    .shop-now-btn-font-size{
+        font-size: 24px;
+    }
+
+    .delivery-plan-text {
+        position: absolute;
+        bottom: 13%;
+        left: 24%;
+        right: 24%;
+        font-size: larger;
+    }
+
+    .number-text {
+        position: absolute;
+        bottom: 82%;
+        left: 24%;
+        right: 24%;
+        font-size:xxx-large;
+    }
+
+    .cans-text {
+        position: absolute;
+        bottom: 78%;
+        left: 24%;
+        right: 24%;
+        font-size: x-large;
+    }
+
+    .delivery-plan-image-res {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media (min-width:1025px) {
+
+    .shop-now-btn-font-size{
+        font-size: 24px;
+    }
+
+    .delivery-plan-text {
+        position: absolute;
+        bottom: 13%;
+        left: 24%;
+        right: 24%;
+        font-size: larger;
+    }
+
+    .number-text {
+        position: absolute;
+        bottom: 82%;
+        left: 24%;
+        right: 24%;
+        font-size:xxx-large;
+    }
+
+    .cans-text {
+        position: absolute;
+        bottom: 78%;
+        left: 24%;
+        right: 24%;
+        font-size: x-large;
+    }
+
+    .delivery-plan-image-res {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width:1281px) {
+
+    .shop-now-btn-font-size{
+        font-size: 24px;
+    }
+
+    .delivery-plan-text {
+        position: absolute;
+        bottom: 13%;
+        left: 24%;
+        right: 24%;
+        font-size: larger;
+    }
+
+    .number-text {
+        position: absolute;
+        bottom: 82%;
+        left: 24%;
+        right: 24%;
+        font-size:xxx-large;
+    }
+
+    .cans-text {
+        position: absolute;
+        bottom: 78%;
+        left: 24%;
+        right: 24%;
+        font-size: x-large;
+    }
+
+    .delivery-plan-image-res {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* hi-res laptops and desktops */
+}

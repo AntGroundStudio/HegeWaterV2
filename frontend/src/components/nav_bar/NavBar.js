@@ -1,4 +1,6 @@
 import NavbarItem from "./NavBarItem";
+import './Navbar.css'
+import HegeLogo from './Logo';
 
 export default function NavBar(props){
 
@@ -7,6 +9,7 @@ export default function NavBar(props){
     return(
         <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
             <div class="container-fluid">
+            <a class="navbar-brand" href="#"><HegeLogo/></a>
             <button
                 class="navbar-toggler"
                 type="button"

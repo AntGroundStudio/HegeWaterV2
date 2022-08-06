@@ -1,0 +1,128 @@
+.mineral-water-font-color{
+    color:#366BDF;
+}
+
+.about-title-font-weight{
+    font-weight: 900;
+    -webkit-text-stroke-width: 0.25px;
+}
+
+.read-more-about-btn-color {
+    background-color: #366BDF;
+}
+
+.read-more-about-btn-prop {
+    border-radius: 77px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/*Media Queries*/
+@media (min-width:320px) {
+
+    .read-more-about-btn-font-size{
+        font-size: 16px;
+    }
+
+    .about-paragraph-font-size{
+        font-size: 14px;
+    }
+
+    .about-image-res {
+        max-width: 88%;
+        height: auto;
+    }
+
+    /* smartphones, iPhone, portrait 480x320 phones */
+}
+
+@media (min-width:481px) {
+
+    .read-more-about-btn-font-size{
+        font-size: 16px;
+    }
+
+    .about-paragraph-font-size{
+        font-size: 14px;
+    }
+
+    .about-image-res {
+        max-width: 88%;
+        height: auto;
+    }
+
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+
+@media (min-width:641px) {
+
+    .read-more-about-btn-font-size{
+        font-size: 16px;
+    }
+
+    .about-paragraph-font-size{
+        font-size: 14px;
+    }
+
+    .about-image-res {
+        max-width: 88%;
+        height: auto;
+    }
+
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+
+@media (min-width:961px) {
+
+    .read-more-about-btn-font-size{
+        font-size: 24px;
+    }
+
+    .about-paragraph-font-size{
+        font-size: 24px;
+    }
+
+    .about-image-res {
+        max-width: 72%;
+        height: auto;
+    }
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media (min-width:1025px) {
+
+    .read-more-about-btn-font-size{
+        font-size: 24px;
+    }
+
+    .about-paragraph-font-size{
+        font-size: 24px;
+    }
+
+    .about-image-res {
+        max-width: 72%;
+        height: auto;
+    }
+    /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width:1281px) {
+
+    .read-more-about-btn-font-size{
+        font-size: 24px;
+    }
+
+    .about-paragraph-font-size{
+        font-size: 24px;
+    }
+
+    .about-image-res {
+        max-width: 72%;
+        height: auto;
+    }
+    /* hi-res laptops and desktops */
+}
