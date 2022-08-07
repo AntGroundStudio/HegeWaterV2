@@ -156,8 +156,8 @@ LOGGING = {
     'disable_existing_loggers': False,
     'formatters': {
         'verbose': {
-            'format': '%(asctime)s - %(levelname)s | %(pathname)s - %(filename)s - %(funcName)s - %(lineno)d - %(message)s',
-            #'datefmt':'%d-%m-%Y %H:%M:%S',
+            'format': '%(asctime)s - %(levelname)s | %(pathname)s - %(filename)s - %(funcName)s - %(lineno)d - %(message)s'
+            #'datefmt':'%d-%m-%Y %H:%M:%S'
         },
         'simple': {
             'format': '%(levelname)s %(message)s'
@@ -170,7 +170,7 @@ LOGGING = {
             'filename': 'hegewater/logs/logInfo.log',
             'maxBytes': 2097152,  # 1024 * 1024 * 2B = 2MB
             'backupCount': 10,
-            'formatter': 'verbose',
+            'formatter': 'verbose'
         },
     },
     'loggers': {
