@@ -11,11 +11,9 @@ def test(request):
     if request.method == 'GET':
         try:
             request_data = JSONParser().parse(request)
-            logger.critical("testing")
-            #result = models.addUser(request_data)
-            logger.info("MethodExit")
+            #result = models.getUserById(request_data)
+            logger.info("Testing Logging")
             return JsonResponse("result", status=status.HTTP_200_OK, safe=False)
         except Exception as e:
             return JsonResponse("Something went wrong", e)
-        
 

@@ -172,10 +172,15 @@ LOGGING = {
             'backupCount': 10,
             'formatter': 'verbose'
         },
+        'console': {
+            'level': 'INFO',
+            'class': 'logging.StreamHandler',
+            'formatter': 'verbose'
+        }
     },
     'loggers': {
         'loggod': {
-            'handlers': ['rotating_file_handler'],
+            'handlers': ['console'],
             'level': 'INFO',
             'propagate': True,
         }
