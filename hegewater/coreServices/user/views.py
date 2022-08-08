@@ -13,7 +13,7 @@ def test(request):
             request_data = JSONParser().parse(request)
             #result = models.getUserById(request_data)
             logger.info("Testing Logging")
-            return JsonResponse({"result"}, status=status.HTTP_200_OK, safe=False)
+            return JsonResponse({"result":"Hello"}, status=status.HTTP_200_OK, safe=False)
         except Exception as e:
             return JsonResponse("Something went wrong", e)
 
