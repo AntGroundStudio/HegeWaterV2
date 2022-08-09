@@ -10,7 +10,7 @@ logger = logging.getLogger("loggod")
 def test(request):
     if request.method == 'GET':
         try:
-            request_data = JSONParser().parse(request)
+            #request_data = JSONParser().parse(request)
             #result = models.getUserById(request_data)
             logger.info("Testing Logging")
             return JsonResponse({"result":"Hello"}, status=status.HTTP_200_OK, safe=False)
