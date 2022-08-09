@@ -187,7 +187,7 @@ LOGGING = {
     },
     'loggers': {
         'loggod': {
-            'handlers': ['console_verbose','console_essential'],
+            'handlers': ['console_verbose'],
             'level': 'INFO',
             'propagate': True,
         }
