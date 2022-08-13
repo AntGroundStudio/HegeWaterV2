@@ -174,11 +174,6 @@ LOGGING = {
         #     'backupCount': 10,
         #     'formatter': 'verbose'
         # },
-        'console_verbose': {
-            'level': 'INFO',
-            'class': 'logging.StreamHandler',
-            'formatter': 'verbose'
-        },
         'console_essential':{
             'level': 'INFO',
             'class': 'logging.StreamHandler',
@@ -187,7 +182,7 @@ LOGGING = {
     },
     'loggers': {
         'loggod': {
-            'handlers': ['console_verbose'],
+            'handlers': ['console_essential'],
             'level': 'INFO',
             'propagate': True,
         }
