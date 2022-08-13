@@ -148,3 +148,43 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 
 ALLOWED_HOSTS = ['*']
+
+#date time logging_level | file_name - function_name - exception (in case of error logs)
+#method_entry method_exit
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '%(asctime)s - %(levelname)s | %(pathname)s - %(filename)s - %(funcName)s - line no %(lineno)d - %(message)s' #'datefmt':'%d-%m-%Y %H:%M:%S'
+        },
+        'essential':{
+            'format': '%(levelname)s | %(pathname)s - %(filename)s - %(funcName)s - line no %(lineno)d - %(message)s'
+        },
+        'simple': {
+            'format': '%(levelname)s %(message)s'
+        },
+    },
+    'handlers': {
+        # 'rotating_file_handler': {
+        #     'level': 'DEBUG',
+        #     'class': 'logging.handlers.RotatingFileHandler',
+        #     'filename': 'hegewater/logs/logInfo.log',
+        #     'maxBytes': 2097152,  # 1024 * 1024 * 2B = 2MB
+        #     'backupCount': 10,
+        #     'formatter': 'verbose'
+        # },
+        'console_essential':{
+            'level': 'INFO',
+            'class': 'logging.StreamHandler',
+            'formatter': 'essential'
+        }
+    },
+    'loggers': {
+        'loggod': {
+            'handlers': ['console_essential'],
+            'level': 'INFO',
+            'propagate': True,
+        }
+    },
+}
