@@ -149,6 +149,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 ALLOWED_HOSTS = ['*']
 
+#testing logging
 #date time logging_level | file_name - function_name - exception (in case of error logs)
 #method_entry method_exit
 LOGGING = {
