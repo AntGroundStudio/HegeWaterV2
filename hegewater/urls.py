@@ -20,5 +20,6 @@ from rest_framework import routers
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/user/',include('hegewater.coreServices.user.urls')),
+    path('api/auth/',include('hegewater.auth.authentication.urls')),
     path('', include('hegewater.uiServices.react.urls'))
 ]
